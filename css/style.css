@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+background-image: url('../image/bag.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'montserrat', sans-serif;
+
+
+}
+.app-wrap{
+    flex-direction: column;
+    display: flex;
+    margin-top: 9vh;
+    min-width: 100vh;
+    background-image: linear-gradient(to bottom , rgba(0,0,0,0.3) , rgba(0,0,0,0.6));
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px;
+
+}
+
+.search-box{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 16px 0 16px 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 3px solid rgb(226, 162, 43);
+    color: #313131;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+.search-box:focus{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+main{
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding:  20px 50px;
+
+
+}
+.location .city{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.location .date{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.current .temp{
+    color: #fff;
+    font-size: 90px ;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.current .weather{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+ .current .humidity{
+    font-size: 37px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.current .hi-low{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
