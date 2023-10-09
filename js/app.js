@@ -65,7 +65,11 @@ searchInput.addEventListener('keypress',(event)=>{
 
 
 
-
+const geMe=()=>{
+    if (!token){
+        return false
+    }
+}
 
 
 
