@@ -64,11 +64,6 @@ searchInput.addEventListener('keypress',(event)=>{
 })
 
 
-const user=()
-=>{
-    return true
-}
-
 
 
 
