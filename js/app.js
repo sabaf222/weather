@@ -69,6 +69,3 @@ searchInput.addEventListener('keypress',(event)=>{
 
 
 
-const test =()=>{
-    return true
-}
